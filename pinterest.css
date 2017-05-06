@@ -1,0 +1,120 @@
+#nav {
+    position: relative;
+    width: 100%;
+    -webkit-box-align: center;
+    z-index: 670;
+}
+
+.logo {
+    vertical-align: middle;
+    height: 30px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -13px;
+    padding: 0px 30px 0px 30px;
+}
+
+#search {
+    -webkit-box-align: center;
+    width: 400px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #555;
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+}
+
+.searchbg {
+    -webkit-box-align: center;
+    background-color: #efefef;
+    padding: 0;
+    display: inline-block;
+    height: 40px;
+    flex-grow: 1;
+    min-width: 400px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+#magnifying {
+    -webkit-box-align: center;
+    height: 40px;
+}
+
+hr {
+    border: 1px solid #efefef;
+}
+
+.gridcentered {
+    font-family: Helvetica;
+    margin: 20px auto;
+    display: table;
+
+}
+
+.pin {
+    width: 236px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: inline-table;
+}
+
+.pin a {
+    text-decoration: none;
+}
+
+.pinner_img {
+    width: 28px;
+    height: 28px;
+    float: left;
+    text-align: center;
+}
+
+.pin:hover {
+    background-color: #efefef;
+}
+
+.pin_user_info_name {
+    line-height: 28px;
+    margin-left: 5px;
+}
+
+.pin_user_info:hover {
+    background-color: #efefef;
+}
+
+.pin_pic {
+    border-radius: 10px;
+    width: 236px;
+    height: 363px;
+    position: relative;
+}
+
+.pin_description {
+    width: 118px;
+    font-size: 1.25em;
+
+}
+
+.pin_topic {
+    margin: 10px 0px;
+}
+.pin_text {
+    font-family: arial;
+    margin-top: 15px;
+}
