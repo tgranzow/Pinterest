@@ -59,50 +59,46 @@ hr {
     border: 1px solid #efefef;
 }
 
-.gridcentered {
-    font-family: Helvetica;
-    margin: 20px auto;
-    display: table;
-
+#columns {
+	column-width: 250px;
+	column-gap: 15px;
+    width: 90%;
+	max-width: 1100px;
+	margin: 50px auto;
 }
-.pin {
-    width: 236px;
-    font-size: 12px;
-    margin-left: 10px;
-    margin-right: 10px;
+
+div#columns figure {
+	background: #fefefe;
+	border: none;
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+    display: inline-block;
+    column-break-inside: avoid;
     border-radius: 10px;
-    display: inline-table;
 }
 
-.pin a {
-    text-decoration: none;
+div#columns figure img {
+	width: 100%; height: auto;
+	margin-bottom: 5px;
+    border-radius: 10px;
 }
 
-.pinner_img {
+div#columns figure:hover {
+    background-color: #efefef;
+}
+
+div#columns figure figcaption img {
     width: 28px;
     height: 28px;
     float: left;
     text-align: center;
 }
 
-.pin:hover {
-    background-color: #efefef;
-}
-
 .pin_user_info_name {
     line-height: 28px;
     padding-left: 10px;
-}
-
-.pin_user_info:hover {
-    background-color: #efefef;
-}
-
-.pin_pic {
-    border-radius: 10px;
-    width: 236px;
-    height: 363px;
-    position: relative;
 }
 
 .pin_description {

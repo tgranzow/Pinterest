@@ -1,0 +1,58 @@
+.gridcentered {
+    font-family: Helvetica;
+    margin: 20px auto;
+    display: table;
+}
+.pin {
+    width: 236px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: inline-table;
+}
+
+.pin a {
+    text-decoration: none;
+}
+
+.pinner_img {
+    width: 28px;
+    height: 28px;
+    float: left;
+    text-align: center;
+}
+
+.pin:hover {
+    background-color: #efefef;
+}
+
+.pin_user_info_name {
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.pin_user_info:hover {
+    background-color: #efefef;
+}
+
+.pin_pic {
+    border-radius: 10px;
+    width: 236px;
+    height: 363px;
+    position: relative;
+}
+
+.pin_description {
+    width: 118px;
+    font-size: 1.25em;
+
+}
+
+.pin_topic {
+    margin: 10px 0px;
+}
+.pin_text {
+    font-family: arial;
+    margin-top: 15px;
+}
