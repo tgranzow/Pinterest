@@ -19,7 +19,7 @@
 
 #search {
     -webkit-box-align: center;
-    width: 400px;
+    min-width: 90%;
     height: 28px;
     font-weight: 600;
     font-size: 1.4em;
@@ -27,6 +27,7 @@
     background-color: transparent;
     border: none;
     vertical-align: middle;
+    flex-grow: 1;
 }
 
 .searchbg {
@@ -64,7 +65,6 @@ hr {
     display: table;
 
 }
-
 .pin {
     width: 236px;
     font-size: 12px;
@@ -91,7 +91,7 @@ hr {
 
 .pin_user_info_name {
     line-height: 28px;
-    margin-left: 5px;
+    padding-left: 10px;
 }
 
 .pin_user_info:hover {
